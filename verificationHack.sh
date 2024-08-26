@@ -50,5 +50,9 @@ createEnvVariables () {
     printCommand "echo \"Repo: $project_repo\""
 }
 
+verifyGithubInfo () {
+    echo "Verifying configuration of GitHub "
+}
+
 verifyInstallations >> $file_name
 createEnvVariables >> $file_name
