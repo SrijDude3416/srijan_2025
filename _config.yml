@@ -1,15 +1,15 @@
 title: Nighthawk Pages 
 description: "Class of 2025"
 owner_name: Srijan A
-github_username: srijDude3416
-github_repo: "csa_blog2025" 
-baseurl: "/student_2025"
+github_username: SrijDude3416
+github_repo: "srijan_2025" 
+baseurl: "/srijan_2025"
 future: true
 remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
-    - { platform: github, user_url: "https://github.com/srijDude3416"}
+    - { platform: github, user_url: "https://github.com/SrijDude3416"}
 # remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0

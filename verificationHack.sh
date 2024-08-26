@@ -41,18 +41,26 @@ createEnvVariables () {
     echo "Verifying creation of project environment variables"
 
 
-    export project_dir=$HOME/nighthawk  # change nighthawk to different name to test your git clone
-    export project=\$project_dir/portfolio_2025  # change portfolio_2025 to name of project from git clone
-    export project_repo="https://github.com/nighthawkcoders/portfolio_2025.git"
+    export project_dir=$HOME/vscode  # change nighthawk to different name to test your git clone
+    export project=\$project_dir/srijan_2025  # change portfolio_2025 to name of project from git clone
+    export posts=\$project/_posts
+    export notebooks=\$project/_notebooks
+    export project_repo="https://github.com/nighthawkcoders/srijan_2025.git"
     
-    printCommand "echo \"Project dir: $project_dir\""
-    printCommand "echo \"Project: $project\""
+    printCommand "echo \"Repos home dir: $project_dir\""
+    printCommand "echo \"Project dir: $project\""
+    printCommand "echo \"Posts dir: $posts\""
+    printCommand "echo \"Notebooks dir: $notebooks\""
     printCommand "echo \"Repo: $project_repo\""
 }
 
 verifyGithubInfo () {
     echo "Verifying configuration of GitHub "
+
+    printCommand "git config --global --list"
+
 }
 
 verifyInstallations >> $file_name
 createEnvVariables >> $file_name
+verifyGithubInfo >> $file_name

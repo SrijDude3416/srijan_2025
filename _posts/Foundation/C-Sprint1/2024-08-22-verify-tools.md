@@ -32,14 +32,28 @@ Output: Available kernels:
 ```
 Verifying creation of project environment variables
 ```
-Input: echo "Project dir: /home/dudeamabobby/nighthawk"
-Output: "Project dir: /home/dudeamabobby/nighthawk"
+Input: echo "Repos home dir: /home/dudeamabobby/vscode"
+Output: "Repos home dir: /home/dudeamabobby/vscode"
 ```
 ```
-Input: echo "Project: $project_dir/portfolio_2025"
-Output: "Project: $project_dir/portfolio_2025"
+Input: echo "Project dir: $project_dir/srijan_2025"
+Output: "Project dir: $project_dir/srijan_2025"
 ```
 ```
-Input: echo "Repo: https://github.com/nighthawkcoders/portfolio_2025.git"
-Output: "Repo: https://github.com/nighthawkcoders/portfolio_2025.git"
+Input: echo "Posts dir: $project/_posts"
+Output: "Posts dir: $project/_posts"
+```
+```
+Input: echo "Notebooks dir: $project/_notebooks"
+Output: "Notebooks dir: $project/_notebooks"
+```
+```
+Input: echo "Repo: https://github.com/nighthawkcoders/srijan_2025.git"
+Output: "Repo: https://github.com/nighthawkcoders/srijan_2025.git"
+```
+Verifying configuration of GitHub 
+```
+Input: git config --global --list
+Output: user.email=srij.0504@gmail.com
+user.name=SrijDude3416
 ```
