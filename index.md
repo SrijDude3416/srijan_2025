@@ -82,11 +82,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <br>
 
-## Who am I?
+## Hi I'm Srijan!
 
-Well, my LinkedIn says that I'm a "High school junior with a love for all things AI" but I think I'm a lot of things.
+### If you're new here, feel free to check out my [LinkedIn](https://www.linkedin.com/in/srijan-atti-213918273/) 
 
-My interests include:
-- Computer programming
-- Playing basketball
-- 
+
+### Or browse a few of the many projects I've created:
+### [Algorithms Compare](/srijan_2025/algorithm)
+![](images/algorithmsCompare.png)
