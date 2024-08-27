@@ -9,7 +9,7 @@ fi
 touch $file_name
 
 echo "---
-layout: post
+layout: post 
 title: Sprint 1 - Verify Tools
 description: Verifying Tools and Software for Sprint 1
 type: collab
@@ -41,7 +41,7 @@ createEnvVariables () {
     echo "Verifying creation of project environment variables"
 
 
-    export project_dir=$HOME/vscode 
+    export project_dir=$HOME/nighthawk 
     export project=\$project_dir/srijan_2025
     export posts=\$project/_posts
     export notebooks=\$project/_notebooks

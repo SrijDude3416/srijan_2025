@@ -27,13 +27,13 @@ Output: Python 3.10.9
 ```
 Input: jupyter kernelspec list
 Output: Available kernels:
-  python3    /home/dudeamabobby/anaconda3/share/jupyter/kernels/python3
+  python3    /home/dudeamabobby/nighthawk/srijan_2025/venv/share/jupyter/kernels/python3
   java       /usr/local/share/jupyter/kernels/java
 ```
 Verifying creation of project environment variables
 ```
-Input: echo "Repos home dir: /home/dudeamabobby/vscode"
-Output: "Repos home dir: /home/dudeamabobby/vscode"
+Input: echo "Repos home dir: /home/dudeamabobby/nighthawk"
+Output: "Repos home dir: /home/dudeamabobby/nighthawk"
 ```
 ```
 Input: echo "Project dir: $project_dir/srijan_2025"
