@@ -41,8 +41,8 @@ createEnvVariables () {
     echo "Verifying creation of project environment variables"
 
 
-    export project_dir=$HOME/vscode  # change nighthawk to different name to test your git clone
-    export project=\$project_dir/srijan_2025  # change portfolio_2025 to name of project from git clone
+    export project_dir=$HOME/vscode 
+    export project=\$project_dir/srijan_2025
     export posts=\$project/_posts
     export notebooks=\$project/_notebooks
     export project_repo="https://github.com/nighthawkcoders/srijan_2025.git"

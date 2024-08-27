@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### If you're new here, feel free to check out my [LinkedIn](https://www.linkedin.com/in/srijan-atti-213918273/) 
 
+### Learn a bit [about me](/srijan_2025/about/)
 
 ### Or browse a few of the many projects I've created:
 ### [Algorithms Compare](/srijan_2025/algorithm)

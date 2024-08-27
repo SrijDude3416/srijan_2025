@@ -12,80 +12,115 @@ permalink: /algorithm
     <title>Sorting Algorithms Runtime Comparison</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+        margin: 50px;
+        background-color: #111111; /* Almost black background for the entire page */
+        color: #ffffff; /* White text color for better contrast */
+    }
 
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin: 10px;
-        }
+    h1, h2 {
+        color: #CBC3E3; /* Light purple for headings to match the theme */
+    }
 
-        strong {
-            color: white;
-        }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 10px;
+        background-color: #9370DB; /* Medium purple for button background */
+        border: none; /* Remove border for a cleaner look */
+        border-radius: 5px; /* Rounded corners */
+        color: #FFFFFF; /* White text color for buttons */
+        transition: background-color 0.3s ease;
+    }
 
-        #results {
-            margin-top: 20px;
-        }
+    button:hover {
+        background-color: #7b68ee; /* Darker purple*/
+    }
 
-        .algorithm {
-            margin-bottom: 40px;
-        }
+    strong {
+        color: #CBC3E3; /* Light purple
+    }
 
-        .algorithm h2 {
-            margin: 10px 0;
-        }
+    #results {
+        margin-top: 20px;
+        background-color: #2d163a; /* Darker purple background for results section */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners */
+    }
 
-        .algorithm p {
-            margin: 0 0 10px 0;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
+    .algorithm {
+        margin-bottom: 40px;
+        background-color: #2d163a; /* Darker purple background for algorithm sections */
+        padding: 20px;
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    }
 
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin: 10px;
-        }
+    .algorithm h2 {
+        margin: 10px 0;
+    }
 
-        #arrayBubbleSort {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            height: 300px;
-            margin-top: 20px;
-        }
+    .algorithm p {
+        margin: 0 0 10px 0;
+    }
 
-        #arrayQuickSort {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            height: 300px;
-            margin-top: 20px;
-        }
+    #arrayBubbleSort, #arrayQuickSort, #arrayMergeSort {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 300px;
+        margin-top: 20px;
+        background-color: #1f1137; /* Dark purple background for sorting visualizations */
+        padding: 10px;
+        border-radius: 10px; /* Rounded corners */
+        border: 1px solid #9370DB; /* Medium purple border */
+    }
 
-        #arrayMergeSort {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            height: 300px;
-            margin-top: 20px;
-        }
+    .bar {
+        width: 5px;
+        background-color: #9370DB; /* Medium purple for bars */
+        margin: 0 1px;
+        transition: height 0.1s ease;
+    }
 
-        .bar {
-            width: 5px;
-            background-color: #4CAF50;
-            margin: 0 1px;
-            transition: height 0.01s ease;
+    /* Typewriter effect styling */
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        font-family: 'Courier New', Courier, Monospace;
+        border-right: .015em solid #CBC3E3; /* Light purple cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Center the content */
+        letter-spacing: 0.015em; /* Adjust letter spacing */
+        animation: typing 15.0s steps(30, end) forwards, blink-caret 1s step-end infinite;
+        animation-delay: 2000ms;
+        animation-fill-mode: both;
+        color: #FFFFFF; /* White text color */
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        0% {
+            width: 0;
         }
+        50% {
+            width: 100%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: #CBC3E3; /* Light purple cursor blink */
+        }
+    }
     </style>
 </head>
 <body>
