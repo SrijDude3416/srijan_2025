@@ -5,6 +5,9 @@ description: Home Page
 hide: true
 ---
 
+<!-- Include submenu from _includes to top of pages -->
+{% include nav/home.html %}
+
 <style>
 
 .typewriter h1 {

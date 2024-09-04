@@ -5,7 +5,6 @@ description: Verifying Hacks and Knowledge for Sprint 1
 type: collab
 courses: {'csa': {'week': 3}}
 comments: True
-categories: ['Collaboration']
 ---
 
 # Shell Commands:
@@ -43,3 +42,7 @@ categories: ['Collaboration']
   - There is a domain on my GitHub Pages. That domain is: `srijdude3416.github.io`
 - Is the URL for your GitHub Pages different from your neighbors’ URLs? Did you change the URL? If so, when?
   - They are, that is because: first, our usernames are different meaning our domains will be different and second, our home path for our website might be different.
+
+## GitHub Commits and GitLens Proof:
+![](../../../../images/gitlensProof.png)
+![](../../../../images/analytics.png)
