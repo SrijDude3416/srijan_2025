@@ -30,8 +30,6 @@ Notes:
 
 ### Hacks: Jupyter Notebooks
 
-[]()
-
 Notes:
 - Nothing much just bare minimum since most effort went into emoji game 
 
