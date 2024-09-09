@@ -10,13 +10,25 @@ comments: true
 
 ### Hacks: Tools + Equipment Play
 
-New Stuff:
-- fj
-- fd
+Notes:
+- Installed Java 17
+- Added java installation check to code
 
 ### Hacks: GitHub Pages Playground + SASS Hacks
-- 
+
+Notes:
+- Two themes + worked with Ian on theme changer script
+- Updated home + about page
+- actively working on emoji game:
+  - user attempts to draw an emoji and computer guesses which emoji is being drawn
 
 ### Hacks: Jupyter Notebooks
 
+Notes:
+- Nothing much just bare minimum since most effort went into emoji game 
+
 ### Hacks: Frontend Development
+
+Notes:
+- actively working on emoji game 
+  - user attempts to draw an emoji and computer guesses which emoji is being drawn
