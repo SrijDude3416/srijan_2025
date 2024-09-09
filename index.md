@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: Srijan - Home 
 description: Home Page
 hide: true

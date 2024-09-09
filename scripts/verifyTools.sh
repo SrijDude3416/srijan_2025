@@ -35,6 +35,8 @@ verifyInstallations () {
     printCommand "python --version"
     echo "----------------- Verifying Jupyter Kernels -----------------"
     printCommand "jupyter kernelspec list"
+    echo "----------------- Verifying Java Version -----------------"
+    printCommand "java --version"
 }
 
 createEnvVariables () {
