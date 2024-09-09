@@ -10,7 +10,7 @@ comments: true
 
 ### Hacks: Tools + Equipment Play
 
-[Jupyter Notebooks Hack]( {{site.baseurl}}//collaboration/2024/08/22/verify-tools.html )
+[Tools Verify Hack]( {{site.baseurl}}//collaboration/2024/08/22/verify-tools.html )
 
 Notes:
 - Installed Java 17
