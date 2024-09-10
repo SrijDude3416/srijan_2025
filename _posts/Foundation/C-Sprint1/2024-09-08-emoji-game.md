@@ -74,10 +74,10 @@ hide: true
         ctx.lineWidth = brushSize;
         ctx.lineCap = 'round';
         ctx.strokeStyle = brushColor;
-        ctx.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 130);
+        ctx.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 60);
         ctx.stroke();
         ctx.beginPath();
-        ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 130);
+        ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 60);
         // invertCanvasColors();
     }
     // Load emoji images from a folder (accessible via URL)
