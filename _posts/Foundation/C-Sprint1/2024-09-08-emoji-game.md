@@ -8,6 +8,7 @@ hide: true
 
 <link rel="stylesheet" href="emoji.css">
 <h1>Draw something!</h1>
+<p id="emojiPrompt"></p>
 <div id="container">
     <div id="controls">
         <div id="colorPicker"></div>
@@ -79,7 +80,11 @@ hide: true
         ctx.beginPath();
         ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 60);
         // invertCanvasColors();
-    }
+    }// Emoji prompts array
+    const emojiPrompts = ["😀", "😢", "😍", "😎", "🤔", "😡", "💀", "👻", "🍕", "🍔", "🌈", "⚽", "🐶", "🐱"];
+    // Randomly select an emoji prompt for the user
+    const selectedEmojiPrompt = emojiPrompts[Math.floor(Math.random() * emojiPrompts.length)];
+    document.getElementById('emojiPrompt').innerHTML = `Try to draw this emoji: ${selectedEmojiPrompt}`;
     // Load emoji images from a folder (accessible via URL)
     const emojiImages = [];
     const numberOfEmojis = 846; // Change to the number of emoji images you have
