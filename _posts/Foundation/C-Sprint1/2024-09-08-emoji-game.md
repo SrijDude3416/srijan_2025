@@ -75,10 +75,10 @@ hide: true
         ctx.lineWidth = brushSize;
         ctx.lineCap = 'round';
         ctx.strokeStyle = brushColor;
-        ctx.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 60);
+        ctx.lineTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 40);
         ctx.stroke();
         ctx.beginPath();
-        ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 60);
+        ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop + 40);
         // invertCanvasColors();
     }// Emoji prompts array
     const emojiPrompts = ["😀", "😢", "😍", "😎", "🤔", "😡", "💀", "👻", "🍕", "🍔", "🌈", "⚽", "🐶", "🐱"];
