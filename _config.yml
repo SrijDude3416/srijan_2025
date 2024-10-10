@@ -5,12 +5,12 @@ github_username: SrijDude3416
 github_repo: "srijan_2025" 
 baseurl: "/srijan_2025"
 future: true
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 minima:
   skin: classic
   social_links:
     - { platform: github, user_url: "https://github.com/SrijDude3416"}
-# remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: pages-themes/midnight@v0.2.0
 # remote_theme: pages-themes/cayman@v0.2.0
 # remote_theme: pages-themes/dinky@v0.2.0
 # remote_theme: pages-themes/minima@v0.2.0
