@@ -2,15 +2,11 @@
 layout: post
 title: CyberCEO Panel
 description: Panel and take-aways from the cybersecurity panel
-permalink: /cyberceo-panel
+permalink: /cyberceopanel
 comments: True
 ---
 
----
-
 ## **CyberCEO: Extra Credit Work Summary**
-
----
 
 ### **David Tomasz**
 
@@ -66,5 +62,7 @@ comments: True
 | - Stay constantly plugged in to the latest trends 🔌 |
 
 ---
+
+![Extra Credit Proof](../../assets/images/extra-cred-proof.jpeg)
 
 Let me know if you want a printable or slide-friendly version too!
