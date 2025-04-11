@@ -2,7 +2,8 @@
 layout: post
 title: CyberCEO Panel
 description: Panel and take-aways from the cybersecurity panel
-permalink: /cyberceopanel
+permalink: cyberceopanel
+search: True
 comments: True
 ---
 
