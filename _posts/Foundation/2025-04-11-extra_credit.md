@@ -64,6 +64,4 @@ comments: True
 
 ---
 
-![Extra Credit Proof](../../assets/images/extra-cred-proof.jpeg)
-
-Let me know if you want a printable or slide-friendly version too!
+![Extra Credit Proof](./extra-cred-proof.jpeg)
